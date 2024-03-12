@@ -6,6 +6,7 @@ export default function About({ aboutRef }) {
   const [showIcons, setShowIcons] = useState(false);
 
   useEffect(() => {
+    const currentRef = aboutRef.current;
     const observer = new IntersectionObserver(
       (entries) => {
         if (entries[0].isIntersecting) {
@@ -16,9 +17,9 @@ export default function About({ aboutRef }) {
       },
       { threshold: 0.5 }
     );
-    observer.observe(aboutRef.current);
+    observer.observe(currentRef);
     return () => {
-      observer.unobserve(aboutRef.current);
+      observer.unobserve(currentRef);
     };
   }, [aboutRef, setShowIcons]);
 

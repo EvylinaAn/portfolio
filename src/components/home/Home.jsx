@@ -1,7 +1,5 @@
 import { TypeAnimation } from "react-type-animation";
 import { IoMdArrowDropdown } from "react-icons/io";
-import { Link } from "react-router-dom";
-import About from "../about/About";
 import "./home.css";
 
 export default function Home({aboutRef, homeRef}) {
