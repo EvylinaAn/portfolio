@@ -26,7 +26,6 @@ export default function About({ aboutRef }) {
 
   return (
     <section id="about" ref={aboutRef}>
-      
       <div className={`brief ${showIcons ? "fade-in" : ""}`}>
         {/* <div className="profile_pic"></div> */}
         <p>

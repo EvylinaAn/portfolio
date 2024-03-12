@@ -1,14 +1,13 @@
 #about {
   display: flex;
+
   color: white;
   background-color: rgba(0, 0, 0, 0.456);
   height: 70vh;
   width: 70vw;
-  margin: 5vh auto;
+  margin: 12vh auto;
   padding: 2vmin;
-  border-radius: 10px;
 }
-
 
 .brief {
   border-right: 0.1px solid rgba(255, 255, 255, 0.353);
@@ -20,7 +19,6 @@
   align-items: center;
   opacity: 0;
   transition: opacity 1s ease-in-out;
-
 }
 
 .profile_pic {
@@ -94,6 +92,7 @@ p {
 
 @media (max-width: 1250px) {
   #about {
+    margin: 0;
     flex-direction: column;
     height: 100%;
   }
