@@ -103,23 +103,28 @@ p {
   }
 }
 
-@media (max-width: 406px) {
-    #about {
-        width: 100vw;
-        border-radius: 0;
-        padding: 12vmin 0;
-    }
+@media (max-width: 620px) {
+  #about {
+    width: 100vw;
+    border-radius: 0;
+    padding: 12vmin 0;
+  }
 
-    .brief {
-        width: 90%;
-        margin: 5vmin auto;
-        transition: none;
-        opacity: 1;
-    }
+  .brief {
+    width: 90%;
+    margin: 5vmin auto;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
 
 
-    .icon-container {
-        transition: none;
-        opacity: 1;
-    }
+
+  .icon-container {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .fade-in {
+    opacity: 1;
+  }
 }
