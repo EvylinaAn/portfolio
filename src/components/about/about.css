@@ -92,7 +92,7 @@ p {
 
 @media (max-width: 1250px) {
   #about {
-    margin: 0;
+    margin: 0 auto;
     flex-direction: column;
     height: 100%;
   }
