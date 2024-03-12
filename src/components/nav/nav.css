@@ -1,0 +1,27 @@
+/* .bg-base-100 {
+    background-image: url('https://images.unsplash.com/photo-1594734415578-00fc9540929b?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') ;
+} */
+
+.navbar {
+    position: fixed;
+    z-index: 999999999;
+}
+
+.navbar-start {
+    width: 100% !important;
+}
+
+.lg\:flex{
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.menu-horizontal {
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.horizontalNav {
+    padding-top: 0.5rem;
+}
