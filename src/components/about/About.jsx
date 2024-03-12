@@ -4,15 +4,16 @@ import { useState, useEffect } from "react";
 
 export default function About({ aboutRef }) {
   const [showIcons, setShowIcons] = useState(false);
+  const [hasScrolledToAbout, setHasScrolledToAbout] = useState(false);
+
 
   useEffect(() => {
     const currentRef = aboutRef.current;
     const observer = new IntersectionObserver(
       (entries) => {
-        if (entries[0].isIntersecting) {
+        if (entries[0].isIntersecting && !hasScrolledToAbout) {
           setShowIcons(true);
-        } else {
-          setShowIcons(false);
+          setHasScrolledToAbout(true); 
         }
       },
       { threshold: 0.5 }
@@ -21,10 +22,11 @@ export default function About({ aboutRef }) {
     return () => {
       observer.unobserve(currentRef);
     };
-  }, [aboutRef, setShowIcons]);
+  }, [aboutRef, setShowIcons, hasScrolledToAbout, setHasScrolledToAbout]);
 
   return (
     <section id="about" ref={aboutRef}>
+      
       <div className={`brief ${showIcons ? "fade-in" : ""}`}>
         {/* <div className="profile_pic"></div> */}
         <p>
