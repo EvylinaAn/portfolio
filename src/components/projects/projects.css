@@ -68,10 +68,39 @@ circle {
   margin: 0 20px 0 0;
 }
 
-.projectLI:last-of-type {
+#one {
+  background-image: url(./assets/snake.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 
-  background-image: url(./assets/1.jpg);
+#two {
+  background-image: url(./assets/bee.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#three {
+  background-image: url(./assets/journee.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#four {
+  background-image: url(./assets/blog.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   margin: 0;
+}
+
+@media (max-width: 620px) {
+  .projectsDiv {
+    width: 100vw;
+    height: 100vh;
+    background: none;
+  }
+
+  .projectLI {
+    padding: 50vw;
+  }
 }

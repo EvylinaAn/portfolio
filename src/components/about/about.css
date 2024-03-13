@@ -147,6 +147,12 @@ color: white;
     transition: all 1s ease-in-out;
   }
 
+  .skills {
+    border-bottom: 1px solid white;
+    padding-bottom: 5vmin ;
+    width: 90%;
+  }
+
   .icon-container {
     opacity: 0;
     transition: opacity 1s ease-in-out;

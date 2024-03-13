@@ -22,10 +22,10 @@ export default function Projects({ projectsRef }) {
           />
         </svg>
         <ul className="projectUL" ref={ref}>
-          <li className="projectLI"></li>
-          <li className="projectLI"></li>
-          <li className="projectLI"></li>
-          <li className="projectLI"></li>
+          <li className="projectLI" id="one"></li>
+          <li className="projectLI" id="two"></li>
+          <li className="projectLI" id="three"></li>
+          <li className="projectLI" id="four"></li>
         </ul>
       </div>
     </section>
