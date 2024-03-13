@@ -33,9 +33,9 @@ function App() {
         contactRef={contactRef}
       />
       <Home aboutRef={aboutRef} homeRef={homeRef}/>
-      <div className="betSections"></div>
+      {/* <div className="betSections"></div> */}
       <About aboutRef={aboutRef} />
-      <div className="betSections"></div>
+      {/* <div className="betSections"></div> */}
       {/* <div className="betSections"></div> */}
       <Projects projectsRef={projectsRef}/>
       {/* <div className="betSections"></div> */}
