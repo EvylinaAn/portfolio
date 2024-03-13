@@ -1,11 +1,14 @@
 import "./about.css";
 import StackIcon from "tech-stack-icons";
 import { useState, useEffect } from "react";
+import { motion, useTime, useTransform } from "framer-motion";
 
 export default function About({ aboutRef }) {
   const [showIcons, setShowIcons] = useState(false);
   const [hasScrolledToAbout, setHasScrolledToAbout] = useState(false);
 
+  // const time = useTime();
+  // const rotate = useTransform(time, [0, 4000], [0, 360], { clamp: false });
 
   useEffect(() => {
     const currentRef = aboutRef.current;
@@ -13,7 +16,7 @@ export default function About({ aboutRef }) {
       (entries) => {
         if (entries[0].isIntersecting && !hasScrolledToAbout) {
           setShowIcons(true);
-          setHasScrolledToAbout(true); 
+          setHasScrolledToAbout(true);
         }
       },
       { threshold: 0.5 }
@@ -31,14 +34,14 @@ export default function About({ aboutRef }) {
         <p>
           Originally from Goa, India, I'm Evylina Antao, but you can call me
           'Evy.' With a background in Fashion Design, my journey took a turn
-          when I discovered a deep love for blogging. 
+          when I discovered a deep love for blogging.
           <br />
           <br />
-          Encouraged by my family, I
-          ventured into coding to create my own blog, where I quickly found a
-          passion for software development. As I delved deeper into online
-          courses, my enthusiasm for programming grew, ultimately leading me to
-          invest in General Assembly's Software Engineering course.
+          Encouraged by my family, I ventured into coding to create my own blog,
+          where I quickly found a passion for software development. As I delved
+          deeper into online courses, my enthusiasm for programming grew,
+          ultimately leading me to invest in General Assembly's Software
+          Engineering course.
           <br />
           <br />
           Now, with the course completed, I reflect on the resilience of my
@@ -53,14 +56,32 @@ export default function About({ aboutRef }) {
             <StackIcon name="html5" />
             <div className="icon-name">HTML5</div>
           </div>
+          {/* <div className="example-container">
+            <motion.div style={{ rotate }}>
+              <StackIcon name="html5" />
+            </motion.div>
+            <div className="rotate-p">HTML</div>
+          </div> */}
           <div className={`icon-container ${showIcons ? "fade-in" : ""}`}>
             <StackIcon name="css3" />
             <div className="icon-name">CSS</div>
           </div>
+          {/* <div className="example-container">
+            <motion.div style={{ rotate }}>
+              <StackIcon name="css3" />
+            </motion.div>
+            <div className="rotate-p">CSS</div>
+          </div> */}
           <div className={`icon-container ${showIcons ? "fade-in" : ""}`}>
             <StackIcon name="js" />
             <div className="icon-name">JavaScript</div>
           </div>
+          {/* <div className="example-container">
+            <motion.div style={{ rotate }}>
+              <StackIcon name="js" />
+            </motion.div>
+            <div className="rotate-p">JavaScript</div>
+          </div>           */}
         </div>
         <div className="row">
           <div className={`icon-container ${showIcons ? "fade-in" : ""}`}>
@@ -141,7 +162,7 @@ export default function About({ aboutRef }) {
             <StackIcon name="npm2" />
             <div className="icon-name">NPM</div>
           </div>
-          <div >
+          <div>
             <div
               className={`icon-container ${showIcons ? "fade-in" : ""} express`}
             >
@@ -153,6 +174,12 @@ export default function About({ aboutRef }) {
             >
               Express
             </div>
+            {/* <div className="example-container">
+              <motion.div style={{ rotate }}>
+                <StackIcon name="npm2" />
+              </motion.div>
+              <div className="rotate-p">NPM</div>
+            </div> */}
           </div>
         </div>
       </div>

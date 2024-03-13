@@ -20,6 +20,7 @@ function App() {
   const interestsRef = useRef();
   const contactRef = useRef();
 
+
   console.log(aboutRef);
   return (
     <div className="App">
