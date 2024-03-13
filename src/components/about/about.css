@@ -120,9 +120,26 @@ color: white;
   .brief {
     width: 90%;
     margin: 5vmin auto;
-    opacity: 0;
     border-top: 0.5px solid rgba(255, 255, 255);
     padding-top: 4vmin ;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .icon-container {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .fade-in {
+    opacity: 1;
+  }
+}
+
+
+@media (max-width: 430px) {
+  .brief {
+    opacity: 0;
     transition: opacity 1s ease-in-out;
   }
 
