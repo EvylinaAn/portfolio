@@ -3,6 +3,7 @@ h1 {
     letter-spacing: 10px;
     opacity: 1;
     font-family: "EB Garamond", serif;
+    text-shadow: 6px 4px 8px rgba(128, 0, 0, 0.48);
 
 }
 
@@ -24,7 +25,7 @@ h1 {
     margin-top: 5vh;
     text-align: center;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.333);
+    background-color: rgba(163, 130, 160, 0.333);
     width: 70vw;
     height: 60vh;
     color: white;
@@ -32,7 +33,6 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-shadow: 6px 4px 8px rgba(128, 0, 0, 0.48);
 
 }
 

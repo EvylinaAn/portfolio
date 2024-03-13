@@ -2,7 +2,9 @@
   display: flex;
 
   color: white;
-  background-color: rgba(0, 0, 0, 0.456);
+  /* background-color: rgba(0, 0, 0, 0.456); */
+  background-color: rgba(163, 130, 160, 0.333);
+
   height: 70vh;
   width: 70vw;
   margin: 12vh auto;
