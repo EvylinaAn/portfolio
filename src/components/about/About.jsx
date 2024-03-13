@@ -1,7 +1,6 @@
 import "./about.css";
 import StackIcon from "tech-stack-icons";
 import { useState, useEffect } from "react";
-import { motion, useTime, useTransform } from "framer-motion";
 
 export default function About({ aboutRef }) {
   const [showIcons, setShowIcons] = useState(false);
