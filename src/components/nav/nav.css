@@ -36,5 +36,27 @@
 }
 
 .w-5 {
-    color: white;
+    color: rgba(163, 130, 160);
 }
+
+.w-52 {
+    
+    opacity: 1;
+}
+
+.dropdown-content {
+    background-color: rgba(163, 130, 160) !important;
+    width: 98.5vw;
+}
+
+@media (max-width: 1023px) {
+    .bg-base-100 {
+        background: none;
+    }
+}
+
+/* @media (max-width: 620px) {
+    .bg-base-100 {
+        background-color: rgba(163, 130, 160, 0.333);
+    }
+} */

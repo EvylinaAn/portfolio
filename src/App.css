@@ -31,3 +31,9 @@ body {
     /* background-color: black; */
 
 }
+
+@media (max-width : 620px) {
+    .App {
+        background-color: rgba(163, 130, 160, 0.533);
+    }
+}

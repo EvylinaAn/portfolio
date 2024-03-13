@@ -27,7 +27,7 @@ export default function About({ aboutRef }) {
   return (
     <section id="about" ref={aboutRef}>
       <div className={`brief ${showIcons ? "fade-in" : ""}`}>
-        {/* <div className="profile_pic"></div> */}
+        <div className="profile_pic"></div>
         <p>
           Originally from Goa, India, I'm Evylina Antao, but you can call me
           'Evy.' With a background in Fashion Design, my journey took a turn
