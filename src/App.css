@@ -7,11 +7,13 @@ body {
     --grayText: rgb(166, 173, 187);
     background-color: var(--background);
     width: 100vw;
+    height: 100vh;
 }
 
 .App {
     height: 100%;
     width: 100%;
+    background-color: var(--background);
 }
 
 .header_text {

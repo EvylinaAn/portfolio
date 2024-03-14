@@ -1,33 +1,80 @@
-import React from "react";
+import { useEffect } from "react";
 import "./projects.css";
-import { useRef } from "react";
-import { motion, useScroll } from "framer-motion";
-
+import "animate.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Projects({ projectsRef }) {
-  const ref = useRef(null);
-  const { scrollXProgress } = useScroll({ container: ref });
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
 
   return (
     <section id="projects" ref={projectsRef}>
-      <div className="projectsDiv">
-        <svg id="progress" width="100" height="100" viewBox="0 0 100 100">
-          <circle cx="50" cy="50" r="30" pathLength="1" className="bg" />
-          <motion.circle
-            cx="50"
-            cy="50"
-            r="30"
-            pathLength="1"
-            className="indicator"
-            style={{ pathLength: scrollXProgress }}
-          />
-        </svg>
-        <ul className="projectUL" ref={ref}>
-          <li className="projectLI" id="one"></li>
-          <li className="projectLI" id="two"></li>
-          <li className="projectLI" id="three"></li>
-          <li className="projectLI" id="four"></li>
-        </ul>
+      <div className="projectDiv">
+        <h2
+        data-aos="zoom-in"
+          className="w-full flex justify-center madimi"
+          style={{ letterSpacing: "2px" }}
+        >
+          Projects
+        </h2>
+        <div className="singleProject" >
+          <div className="projectImg" id="project1" data-aos="zoom-in">
+          <div></div>
+          </div>
+          <div className="aboutProject" data-aos="zoom-in">
+            <h3 className="projectName"></h3>
+            <ul className="techStack"></ul>
+            <p className="projectDesc"></p>
+            <div className="projectLinks">
+              <button className="appLink"></button>
+              <button className="gitHubLink"></button>
+            </div>            
+          </div>
+        </div>
+        <div className="singleProject">
+          <div className="projectImg" id="project2" data-aos="zoom-in">
+            <div></div>
+          </div>
+          <div className="aboutProject" data-aos="zoom-in">
+            <h3 className="projectName"></h3>
+            <ul className="techStack"></ul>
+            <p className="projectDesc"></p>
+            <div className="projectLinks">
+              <button className="appLink"></button>
+              <button className="gitHubLink"></button>
+            </div>            
+          </div>
+        </div>
+        <div className="singleProject">
+          <div className="projectImg" id="project3" data-aos="zoom-in">
+          <div></div>
+          </div>
+          <div className="aboutProject" data-aos="zoom-in">
+            <h3 className="projectName"></h3>
+            <ul className="techStack"></ul>
+            <p className="projectDesc"></p>
+            <div className="projectLinks">
+              <button className="appLink"></button>
+              <button className="gitHubLink"></button>
+            </div>            
+          </div>
+        </div>
+        <div className="singleProject">
+          <div className="projectImg" id="project4" data-aos="zoom-in">
+          <div></div>
+          </div>
+          <div className="aboutProject" data-aos="zoom-in">
+            <h3 className="projectName"></h3>
+            <ul className="techStack"></ul>
+            <p className="projectDesc"></p>
+            <div className="projectLinks">
+              <button className="appLink"></button>
+              <button className="gitHubLink"></button>
+            </div>            
+          </div>
+        </div>
       </div>
     </section>
   );
