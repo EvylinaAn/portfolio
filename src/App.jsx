@@ -34,20 +34,12 @@ function App() {
         contactRef={contactRef}
       />
       <Home aboutRef={aboutRef} homeRef={homeRef}/>
-      {/* <div className="betSections"></div> */}
       <About aboutRef={aboutRef} />
-      {/* <div className="betSections"></div> */}
-      {/* <div className="betSections"></div> */}
       <Projects projectsRef={projectsRef}/>
-      {/* <div className="betSections"></div> */}
       <Experience experienceRef={experienceRef}/>
-      {/* <div className="betSections"></div> */}
       <Education educationRef={educationRef}/>
-      {/* <div className="betSections"></div> */}
       <Interests interestsRef={interestsRef}/>
-      {/* <div className="betSections"></div> */}
       <Contact contactRef={contactRef}/>
-      {/* <div className="betSections"></div> */}
       <Footer />
     </div>
   );

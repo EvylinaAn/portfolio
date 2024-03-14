@@ -3,34 +3,27 @@
 }
 
 body {
-    --background: rgba(163, 130, 160, 0.533);
-    /* background-image: url('https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') ; */
-    background-image: url('https://images.unsplash.com/photo-1594734415578-00fc9540929b?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') ;
-    /* background-image: url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* height: 100vh; */
-    /* background-color: white; */
+    --background: rgb(240, 237, 229);
+    --grayText: rgb(166, 173, 187);
+    background-color: var(--background);
+    width: 100vw;
 }
 
 .App {
     height: 100%;
+    width: 100%;
 }
 
-.betSections {
-    height: 5em;
-    background-color: black;
-    background-color: rgba(163, 130, 160, 0.533);
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "EB Garamond", serif;
-    /* background-image: url('https://images.unsplash.com/photo-1621311627999-5fc957ed1aff?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
-    /* background-size: contain; */
-    
-    /* background-color: black; */
+.header_text {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
+.madimi {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 @media (max-width : 620px) {
