@@ -139,13 +139,7 @@ export default function Projects({ projectsRef }) {
               A day planner using the MERN stack showcasing my ability to work
               as a team ready for an actual workspace environment by
               collaborating on GitHub, using React.js to develop a fully
-              functional CRUDable application. I took on the task of
-              implementing user authentication by utilizing Google oAuth with
-              Passport. Our application had 3 main CRUDable items, namely
-              To-Dos, Schedule and Daily Check where I looked after the
-              implementation of the to-do’s and helped my teammate with the
-              daily checker. We also each had a part to play with the styling of
-              the application.
+              functional CRUDable application. 
             </p>
             <div className="projectLinks mt-4">
               <Link to="https://journee.site/" target="blank">
