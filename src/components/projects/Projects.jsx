@@ -17,7 +17,7 @@ import { SiPostgresql } from "react-icons/si";
 
 export default function Projects({ projectsRef }) {
   useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({ duration: 1000 });
   }, []);
 
   return (
