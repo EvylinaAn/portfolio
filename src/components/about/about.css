@@ -8,6 +8,8 @@
 
 h2 {
   font-size: 2em;
+  width: 70vw;
+  margin: auto;
 }
 
 .brief {
@@ -115,12 +117,15 @@ p {
     padding-bottom: 4vmin;
     border: none;
     padding-top: 3vmin;
-    border-top: 0.5px solid rgba(255, 255, 255);
+    /* border-top: 0.5px solid rgba(255, 255, 255); */
     border-bottom: 0.5px solid rgba(255, 255, 255);
   }
 }
 
 @media (max-width: 620px) {
+  h2 {
+    width: 100%;
+  }
   #about {
     width: 100vw;
     background: none;
