@@ -12,10 +12,10 @@ export default function About({ aboutRef }) {
 
   return (
     <>
-      <h2 className="madimi flex justify-center" data-aos="zoom-in-up" style={{letterSpacing: '2px'}}>About Me</h2>
+      <h2 ref={aboutRef} className="madimi flex justify-center" data-aos="zoom-in-up" style={{letterSpacing: '2px'}}>About Me</h2>
       <section
         id="about"
-        ref={aboutRef}
+        
         data-aos="zoom-in-up"
         data-aos-duration="1500"
       >

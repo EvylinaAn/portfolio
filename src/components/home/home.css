@@ -6,16 +6,17 @@
 }
 
 .name{
-    font-size: 5em;
+    font-size: 4em;
     letter-spacing: 10px;
     opacity: 1;
-
+    /* color: white; */
     /* text-shadow: 6px 4px 8px rgba(128, 0, 0, 0.65); */
     text-shadow: 3px 0px 18px pink;
 
 }
 
 h1 {
+    color: var(--grayText);
     margin-bottom: 2vmin ;
 }
 

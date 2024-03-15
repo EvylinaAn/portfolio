@@ -32,7 +32,11 @@ export default function Projects({ projectsRef }) {
         </h2>
         <div className="singleProject" data-aos="zoom-in">
           <div className="projectImg" id="project1" data-aos="zoom-in">
-            <div></div>
+            <div>
+              <Link to="https://evyssnakegame.netlify.app/" target="blank">
+                <img src="./assets/snake.jpg" alt="project 1 img" />
+              </Link>
+            </div>
           </div>
           <div className="aboutProject" data-aos="zoom-in">
             <h3 className="projectName text-2xl madimi">Retro Snake</h3>
@@ -72,7 +76,9 @@ export default function Projects({ projectsRef }) {
         </div>
         <div className="singleProject" data-aos="zoom-in">
           <div className="projectImg" id="project2" data-aos="zoom-in">
-            <div></div>
+            <div>
+              <img src="./assets/bee.jpg" alt="project 2 img" />
+            </div>
           </div>
           <div className="aboutProject" data-aos="zoom-in">
             <h3 className="projectName text-2xl madimi">BEE</h3>
@@ -116,7 +122,9 @@ export default function Projects({ projectsRef }) {
         </div>
         <div className="singleProject" data-aos="zoom-in">
           <div className="projectImg" id="project3" data-aos="zoom-in">
-            <div></div>
+            <div>
+              <img src="./assets/journee.jpg" alt="project 3 img" />
+            </div>
           </div>
           <div className="aboutProject" data-aos="zoom-in">
             <h3 className="projectName text-2xl madimi">Journée</h3>
@@ -139,7 +147,7 @@ export default function Projects({ projectsRef }) {
               A day planner using the MERN stack showcasing my ability to work
               as a team ready for an actual workspace environment by
               collaborating on GitHub, using React.js to develop a fully
-              functional CRUDable application. 
+              functional CRUDable application.
             </p>
             <div className="projectLinks mt-4">
               <Link to="https://journee.site/" target="blank">
@@ -161,7 +169,9 @@ export default function Projects({ projectsRef }) {
         </div>
         <div className="singleProject" data-aos="zoom-in">
           <div className="projectImg" id="project4" data-aos="zoom-in">
-            <div></div>
+            <div>
+              <img src="./assets/blog.jpg" alt="project 4 img" />
+            </div>
           </div>
           <div className="aboutProject" data-aos="zoom-in">
             <h3 className="projectName text-2xl madimi">That Fashion tale</h3>
@@ -184,7 +194,10 @@ export default function Projects({ projectsRef }) {
               web applications.
             </p>
             <div className="projectLinks mt-4">
-              <Link to="https://blogthatfashiontale.netlify.app/" target="blank">
+              <Link
+                to="https://blogthatfashiontale.netlify.app/"
+                target="blank"
+              >
                 <button className="appLink btn btn-sm btn-outline btn-primary">
                   Project
                 </button>

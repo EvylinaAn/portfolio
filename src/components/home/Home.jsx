@@ -17,7 +17,7 @@ export default function Home({aboutRef, homeRef}) {
     <>
       <section id="home" className="homePage" ref={homeRef}>
         <div >
-          <h1 className="animate__animated animate__backInDown"><span className="h1_text madimi">Hi, I'm</span><br/><span className="name header_text">Evylina Antao</span> <br/><span className="h1_text madimi">and I am a</span></h1>
+          <h1 className="animate__animated animate__backInDown "><span className="h1_text madimi">Hi, I'm</span><br/><span className="name header_text">EVYLINA ANTAO</span> <br/><span className="h1_text madimi">and I am a</span></h1>
           <TypeAnimation
           className="animate__animated animate__backInLeft madimi"
             sequence={[

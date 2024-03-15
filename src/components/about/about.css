@@ -1,7 +1,7 @@
 #about {
   display: flex;
   color: var(--grayText);
-  height: 70vh;
+  height: 80vh;
   width: 70vw;
   margin: 5vh auto;
 }
@@ -41,7 +41,7 @@ p {
 
 .skills {
   display: flex;
-  align-items: center;
+  align-items:center;
   justify-content: center;
   flex-wrap: wrap;
   color: black;
