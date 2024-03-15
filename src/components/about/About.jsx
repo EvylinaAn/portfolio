@@ -134,7 +134,7 @@ export default function About({ aboutRef }) {
             </div>
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="npm2" />
-              <div className="icon-name headerText">NPM</div>
+              <div className="icon-name header_text">NPM</div>
             </div>
             <div>
               <div className={`icon-container  express`} data-aos="flip-left">
