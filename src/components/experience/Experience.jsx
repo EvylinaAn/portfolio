@@ -72,7 +72,7 @@ export default function Experience({ experienceRef }) {
             </li>
           </ul>
         </div>
-        <div className="singleExperience" data-aos="fade-left">
+        <div className="singleExperience" data-aos="fade-right">
           <h4 className="expDetails text-xl" id="position">
             Client Liaison Executive,
           </h4>
@@ -115,7 +115,7 @@ export default function Experience({ experienceRef }) {
             </li>
           </ul>
         </div>
-        <div className="singleExperience" data-aos="fade-left">
+        <div className="singleExperience" data-aos="fade-right">
           <h4 className="expDetails text-xl" id="position">
             Call Transfer Consultant (Lead Trading),
           </h4>
@@ -149,7 +149,7 @@ export default function Experience({ experienceRef }) {
             </li>
           </ul>
         </div>
-        <div className="singleExperience" data-aos="fade-left">
+        <div className="singleExperience" data-aos="fade-right">
           <h4 className="expDetails text-xl" id="position">
             Assistant Manager Marketing,
           </h4>
