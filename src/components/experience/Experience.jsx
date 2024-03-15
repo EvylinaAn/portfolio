@@ -38,7 +38,7 @@ export default function Experience({ experienceRef }) {
               fulowed by classes that included live and recorded lessons,
               exercise labs, teamwork, work based problems and 4 main projects
               with a timeframe of a week for each project.
-              <ol className="experienceListOL">
+              {/* <ol className="experienceListOL">
                 <li>
                   Retro Snake - I developed a classic Snake game using HTML,
                   CSS, and JavaScript, demonstrating my proficiency in front-end
@@ -68,7 +68,7 @@ export default function Experience({ experienceRef }) {
                   languages and technologies to build functional and
                   user-friendly web applications.
                 </li>
-              </ol>
+              </ol> */}
             </li>
           </ul>
         </div>
