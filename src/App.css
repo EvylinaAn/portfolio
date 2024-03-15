@@ -5,6 +5,7 @@
 body {
     --background: rgb(240, 237, 229);
     --grayText: rgb(166, 173, 187);
+    --blushPink: rgba(222, 175, 183, 0.859);
     background-color: var(--background);
     width: 100vw;
     height: 100vh;

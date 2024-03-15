@@ -77,7 +77,9 @@ export default function Projects({ projectsRef }) {
         <div className="singleProject" data-aos="zoom-in">
           <div className="projectImg" id="project2" data-aos="zoom-in">
             <div>
-              <img src="./assets/bee.jpg" alt="project 2 img" />
+              <Link to="https://zingy-panda-b32083.netlify.app/" target="blank">
+                <img src="./assets/bee.jpg" alt="project 2 img" />
+              </Link>
             </div>
           </div>
           <div className="aboutProject" data-aos="zoom-in">
@@ -123,7 +125,9 @@ export default function Projects({ projectsRef }) {
         <div className="singleProject" data-aos="zoom-in">
           <div className="projectImg" id="project3" data-aos="zoom-in">
             <div>
-              <img src="./assets/journee.jpg" alt="project 3 img" />
+              <Link to="https://journee.site/" target="blank">
+                <img src="./assets/journee.jpg" alt="project 3 img" />
+              </Link>
             </div>
           </div>
           <div className="aboutProject" data-aos="zoom-in">
@@ -170,7 +174,12 @@ export default function Projects({ projectsRef }) {
         <div className="singleProject" data-aos="zoom-in">
           <div className="projectImg" id="project4" data-aos="zoom-in">
             <div>
-              <img src="./assets/blog.jpg" alt="project 4 img" />
+              <Link
+                to="https://blogthatfashiontale.netlify.app/"
+                target="blank"
+              >
+                <img src="./assets/blog.jpg" alt="project 4 img" />
+              </Link>
             </div>
           </div>
           <div className="aboutProject" data-aos="zoom-in">

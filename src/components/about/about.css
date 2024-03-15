@@ -31,6 +31,8 @@ h2 {
   background-repeat: no-repeat;
   margin-bottom: 2vmin;
   border: 0.5px solid white;
+  box-shadow: var(--blushPink) 0px 5px 27px -5px,
+  var(--blushPink) 0px 5px 27px -5px;
 }
 
 p {
