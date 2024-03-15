@@ -12,7 +12,7 @@ export default function About({ aboutRef }) {
 
   return (
     <>
-      <h2 ref={aboutRef} className="madimi flex justify-center" data-aos="zoom-in-up" style={{letterSpacing: '2px'}}>About Me</h2>
+      <h2 ref={aboutRef} className="header_text flex justify-center" data-aos="zoom-in-up" style={{letterSpacing: '2px'}}>About Me</h2>
       <section
         id="about"
         
@@ -46,102 +46,102 @@ export default function About({ aboutRef }) {
               <StackIcon
                 name="html5"
               />
-              <div className="icon-name  madimi">HTML5</div>
+              <div className="icon-name  header_text">HTML5</div>
             </div>
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="css3" />
-              <div className="icon-name madimi">CSS</div>
+              <div className="icon-name header_text">CSS3</div>
             </div>
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="js" />
-              <div className="icon-name madimi">JavaScript</div>
+              <div className="icon-name header_text">JavaScript</div>
             </div>
           </div>
           <div className="row">
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="python" />
-              <div className="icon-name madimi">Python</div>
+              <div className="icon-name header_text">Python</div>
             </div>
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="reactjs" />
-              <div className="icon-name madimi">React.js</div>
+              <div className="icon-name header_text">React.js</div>
             </div>
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="vuejs" />
-              <div className="icon-name madimi">Vue.js</div>
+              <div className="icon-name header_text">Vue.js</div>
             </div>
           </div>
           <div className="row">
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="bootstrap5" />
-              <div className="icon-name madimi">Bootstrap</div>
+              <div className="icon-name header_text">Bootstrap</div>
             </div>
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="materialui" />
-              <div className="icon-name madimi">MaterialUI</div>
+              <div className="icon-name header_text">MaterialUI</div>
             </div>
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="sass" />
-              <div className="icon-name madimi">SASS</div>
+              <div className="icon-name header_text">SASS</div>
             </div>
           </div>
           <div className="row">
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="tailwindcss" />
-              <div className="icon-name madimi">Tailwind</div>
+              <div className="icon-name header_text">Tailwind</div>
             </div>
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="nodejs" />
-              <div className="icon-name madimi">Node.js</div>
+              <div className="icon-name header_text">Node.js</div>
             </div>
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="mongodb" />
-              <div className="icon-name madimi">MongoDB</div>
+              <div className="icon-name header_text">MongoDB</div>
             </div>
           </div>
           <div className="row">
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="django" />
-              <div className="icon-name madimi">Django</div>
+              <div className="icon-name header_text">Django</div>
             </div>
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="postgresql" />
-              <div className="icon-name madimi">PostgreSQL</div>
+              <div className="icon-name header_text">PostgreSQL</div>
             </div>
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="postman" />
-              <div className="icon-name madimi">Postman</div>
+              <div className="icon-name header_text">Postman</div>
             </div>
           </div>
           <div className="row">
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="github" />
-              <div className="icon-name madimi">GitHub</div>
+              <div className="icon-name header_text">GitHub</div>
             </div>
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="railway" />
-              <div className="icon-name madimi">Railway</div>
+              <div className="icon-name header_text">Railway</div>
             </div>
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="aws" />
-              <div className="icon-name madimi">AWS</div>
+              <div className="icon-name header_text">AWS</div>
             </div>
           </div>
           <div className="row">
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="netlify2" />
-              <div className="icon-name madimi">Netlify</div>
+              <div className="icon-name header_text">Netlify</div>
             </div>
             <div className={`icon-container `} data-aos="flip-left">
               <StackIcon name="npm2" />
-              <div className="icon-name madimi">NPM</div>
+              <div className="icon-name headerText">NPM</div>
             </div>
             <div>
               <div className={`icon-container  express`} data-aos="flip-left">
                 <div className="">ex</div>
               </div>
               <div
-                className={`icon-name madimi`}
+                className={`icon-name header_text`}
                 data-aos="flip-left"
                 style={{ marginTop: "0" }}
               >

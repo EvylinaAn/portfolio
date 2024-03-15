@@ -5,7 +5,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+    color: rgba(107, 106, 106, 0.801)
+}
   
   .experienceDiv {
     width: 70%;
@@ -17,6 +20,12 @@
     padding: 3em;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+
+  .singleExperience h4 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
   .expDetails {

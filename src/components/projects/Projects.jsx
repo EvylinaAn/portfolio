@@ -25,7 +25,7 @@ export default function Projects({ projectsRef }) {
       <div className="projectDiv">
         <h2
           data-aos="zoom-in"
-          className="w-full flex justify-center madimi"
+          className="w-full flex justify-center header_text"
           style={{ letterSpacing: "2px" }}
         >
           Projects

@@ -4,7 +4,8 @@
 
 body {
     --background: rgb(240, 237, 229);
-    --grayText: rgb(166, 173, 187);
+    /* --grayText: rgb(166, 173, 187); */
+    --grayText: rgba(107, 106, 106, 0.801);
     --blushPink: rgba(222, 175, 183, 0.859);
     background-color: var(--background);
     width: 100vw;
@@ -15,6 +16,9 @@ body {
     height: 100%;
     width: 100%;
     background-color: var(--background);
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+    color: rgba(107, 106, 106, 0.801)
 }
 
 .header_text {
@@ -22,6 +26,9 @@ body {
     font-weight: 400;
     font-style: normal;
     font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Salsa", cursive;
     font-weight: 400;
     font-style: normal;
   }

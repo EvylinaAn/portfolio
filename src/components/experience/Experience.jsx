@@ -14,7 +14,7 @@ export default function Experience({ experienceRef }) {
       <div className="experienceDiv">
         <h2
           data-aos="zoom-in"
-          className="w-full flex justify-center madimi"
+          className="w-full flex justify-center header_text"
           style={{ letterSpacing: "2px" }}
         >
           Experience
