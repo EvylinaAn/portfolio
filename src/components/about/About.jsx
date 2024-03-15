@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 export default function About({ aboutRef }) {
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration: 500 });
   }, []);
 
   return (
@@ -17,7 +17,7 @@ export default function About({ aboutRef }) {
         id="about"
         
         data-aos="zoom-in-up"
-        data-aos-duration="1500"
+        // data-aos-duration="1000"
       >
         <div className={`brief`}>
           <div className="profile_pic"></div>
