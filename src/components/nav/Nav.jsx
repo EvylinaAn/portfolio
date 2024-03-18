@@ -37,8 +37,15 @@ export default function Nav({
             <li>
               <a href="#home">Home</a>
             </li>
-            <li>
-              <a href="#about">About</a>
+            <li
+              className="horizontalNav"
+              onClick={() => {
+                aboutRef.current?.scrollIntoView({
+                  behavior: "smooth",
+                });
+              }}
+            >
+              About
             </li>
             <li>
               <a href="#projects">Projects</a>

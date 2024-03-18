@@ -98,7 +98,7 @@ export default function Experience({ experienceRef }) {
             Outbound Sales Consultant,
           </h4>
           <h4 className="expDetails text-xl" id="company">
-            OneFamily ((Modern Family Finance))
+            OneFamily (Modern Family Finance)
           </h4>
           <h4 className="expDetails text-xl" id="duration">
             Duration
