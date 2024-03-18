@@ -2,7 +2,7 @@ import { useRef } from "react";
 
 import "./App.css";
 import Nav from "./components/nav/Nav";
-import Footer from "./components/nav/Footer";
+import Footer from "./components/footer/Footer";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Projects from "./components/projects/Projects";
@@ -19,6 +19,7 @@ function App() {
   const educationRef = useRef();
   const interestsRef = useRef();
   const contactRef = useRef();
+  const footerRef = useRef()
 
 
   console.log(aboutRef);
@@ -32,15 +33,16 @@ function App() {
         educationRef={educationRef}
         interestsRef={interestsRef}
         contactRef={contactRef}
+        footerRef={footerRef}
       />
       <Home aboutRef={aboutRef} homeRef={homeRef}/>
       <About aboutRef={aboutRef} />
       <Projects projectsRef={projectsRef}/>
       <Experience experienceRef={experienceRef}/>
-      <Education educationRef={educationRef}/>
-      <Interests interestsRef={interestsRef}/>
-      <Contact contactRef={contactRef}/>
-      <Footer />
+      {/* <Education educationRef={educationRef}/> */}
+      {/* <Interests interestsRef={interestsRef}/> */}
+      {/* <Contact contactRef={contactRef}/> */}
+      <Footer footerRef={footerRef} />
     </div>
   );
 }

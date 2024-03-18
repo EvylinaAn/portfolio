@@ -8,6 +8,7 @@ export default function Nav({
   educationRef,
   interestsRef,
   contactRef,
+  footerRef,
 }) {
   return (
     <div className="navbar bg-base-100">
@@ -51,8 +52,18 @@ export default function Nav({
             <li>
               <a href="#interests">Interests</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#contact">Contact</a>
+            </li> */}
+            <li
+              className="horizontalNav"
+              onClick={() => {
+                footerRef.current?.scrollIntoView({
+                  behavior: "smooth",
+                });
+              }}
+            >
+              Contact
             </li>
           </ul>
         </div>
@@ -125,7 +136,7 @@ export default function Nav({
           <li
             className="horizontalNav"
             onClick={() => {
-              contactRef.current?.scrollIntoView({
+              footerRef.current?.scrollIntoView({
                 behavior: "smooth",
               });
             }}
