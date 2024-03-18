@@ -5,6 +5,8 @@ import { MdOutlineMail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
 import { IoLogoGithub } from "react-icons/io";
 import { IoLogoInstagram } from "react-icons/io";
+import Divider from '@mui/material/Divider';
+
 
 export default function Footer({ footerRef }) {
   const form = useRef();
@@ -59,16 +61,17 @@ export default function Footer({ footerRef }) {
                       Email
                     </a>
                   </div>
+                  <Divider>Or</Divider>
                   <div className="form_div">
-                    <form ref={form} onSubmit={sendEmail}>
-                      <label>Name</label>
+                    <form ref={form} onSubmit={sendEmail} >
+                      <label className="eb">Your Name</label>
                       <input
                         type="text"
                         name="user_name"
                         className="input_box"
                         required
                       />
-                      <label>Email</label>
+                      <label>Your Email</label>
                       <input
                         type="email"
                         name="user_email"
@@ -87,7 +90,7 @@ export default function Footer({ footerRef }) {
                   <div className="modal-action">
                     <form method="dialog">
                       {/* if there is a button in form, it will close the modal */}
-                      <button className="btn">Close</button>
+                      <button className="btn btn-sm">Close</button>
                     </form>
                   </div>
                 </div>

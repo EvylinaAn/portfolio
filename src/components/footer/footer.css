@@ -79,3 +79,12 @@ form {
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
     transition: all 0.2s ease-in;
 }
+
+.modal-box {
+    background-color: var(--background);
+}
+
+label {
+    font-family: "EB Garamond", serif !important;
+    font-size: 15px;
+}
