@@ -5,8 +5,8 @@ import { MdOutlineMail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
 import { IoLogoGithub } from "react-icons/io";
 import { IoLogoInstagram } from "react-icons/io";
-import Divider from '@mui/material/Divider';
-
+import Divider from "@mui/material/Divider";
+import { BsFillSendFill } from "react-icons/bs";
 
 export default function Footer({ footerRef }) {
   const form = useRef();
@@ -43,7 +43,7 @@ export default function Footer({ footerRef }) {
                   Email
                 </a> */}
               <button
-              className="links_tag"
+                className="links_tag"
                 onClick={() =>
                   document.getElementById("my_modal_5").showModal()
                 }
@@ -58,12 +58,12 @@ export default function Footer({ footerRef }) {
                 <div className="modal-box">
                   <div className="inbox_email">
                     <a href="mailto:thatfashiontale@gmail.com" target="blank">
-                      Email
+                      Go to email
                     </a>
                   </div>
                   <Divider>Or</Divider>
                   <div className="form_div">
-                    <form ref={form} onSubmit={sendEmail} >
+                    <form ref={form} onSubmit={sendEmail}>
                       <label className="eb">Your Name</label>
                       <input
                         type="text"
@@ -80,17 +80,23 @@ export default function Footer({ footerRef }) {
                       />
                       <label>Message</label>
                       <textarea name="message" className="input_box" required />
-                      <input
+                      {/* <input
                         type="submit"
                         value="Send"
                         className="btn btn-outline btn-xs mt-3"
-                      />
+                      /> */}
+                      <button
+                        type="submit"
+                        className="btn btn-outline btn-primary btn-xs mt-3"
+                      >
+                        <BsFillSendFill />
+                      </button>
                     </form>
                   </div>
                   <div className="modal-action">
-                    <form method="dialog">
+                    <form method="dialog" className="close_btn_form">
                       {/* if there is a button in form, it will close the modal */}
-                      <button className="btn btn-sm">Close</button>
+                      <button className="btn btn-sm cls_btn">Close</button>
                     </form>
                   </div>
                 </div>
@@ -108,15 +114,19 @@ export default function Footer({ footerRef }) {
               </a>
             </li>
             <li>
-              <a 
-              className="links_tag" href="https://github.com/EvylinaAn" target="blank">
+              <a
+                className="links_tag"
+                href="https://github.com/EvylinaAn"
+                target="blank"
+              >
                 <IoLogoGithub className="logos" />
                 GitHub
               </a>
             </li>
             <li>
               <a
-               className="links_tag" href="https://www.instagram.com/thatfashiontale/"
+                className="links_tag"
+                href="https://www.instagram.com/thatfashiontale/"
                 target="blank"
               >
                 <IoLogoInstagram className="logos" />

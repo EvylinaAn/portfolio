@@ -25,16 +25,6 @@ footer {
   margin-left: 5em;
 }
 
-/* .contact {
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-} */
-
-/* .footer_links_div {
-    height: 100%;
-} */
-
 .footer_ul {
   height: 100%;
   display: flex;
@@ -49,6 +39,16 @@ footer {
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
 }
+
+.inbox_email {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    display: flex;
+    justify-content: center;
+    padding: 0.3em;
+    width: 50%;
+    margin: auto auto 0.5em;
+}
+
 
 form {
   width: 100%;
@@ -87,4 +87,12 @@ form {
 label {
     font-family: "EB Garamond", serif !important;
     font-size: 15px;
+}
+
+.close_btn_form {
+    align-items: center;
+}
+
+.cls_btn {
+    padding: 0 3em;
 }
