@@ -1,7 +1,6 @@
 import "./footer.css";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { Divider, GridColumn, Grid, Segment } from "semantic-ui-react";
 import { MdOutlineMail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
 import { IoLogoGithub } from "react-icons/io";
