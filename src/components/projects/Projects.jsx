@@ -18,7 +18,7 @@ import { SiPostgresql } from "react-icons/si";
 
 export default function Projects({ projectsRef }) {
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration: 300 });
   }, []);
 
   return (
@@ -26,7 +26,7 @@ export default function Projects({ projectsRef }) {
       <div className="projectDiv">
         <h2
           data-aos="zoom-in"
-          className="w-full flex justify-center header_text"
+          className="w-full flex justify-center header_text name_text"
           style={{ letterSpacing: "2px" }}
         >
           Projects

@@ -6,7 +6,7 @@ import "animate.css";
 
 export default function Experience({ experienceRef }) {
   useEffect(() => {
-    AOS.init({ duration: 700 });
+    AOS.init({ duration: 500 });
   }, []);
 
   return (
@@ -14,7 +14,7 @@ export default function Experience({ experienceRef }) {
       <div className="experienceDiv">
         <h2
           data-aos="zoom-in"
-          className="w-full flex justify-center header_text"
+          className="w-full flex justify-center header_text name_text"
           style={{ letterSpacing: "2px" }}
         >
           Experience
@@ -101,7 +101,7 @@ export default function Experience({ experienceRef }) {
             OneFamily (Modern Family Finance)
           </h4>
           <h4 className="expDetails text-xl" id="duration">
-            Duration
+            August 2021 - June 2023
           </h4>
           <ul className="experienceList">
             <li>

@@ -12,6 +12,7 @@
 }
 
 h2 {
+  /* text-transform: lowercase; */
   color: var(--blushPink);
   font-size: 2em;
   box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
@@ -111,6 +112,11 @@ img {
 }
 
 @media (max-width: 620px) {
+
+  /* #projects {
+    margin: 7em auto;
+  } */
+
   .projectDiv {
     width: 100vw;
   }

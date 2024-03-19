@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 export default function About({ aboutRef, skillsRef }) {
   useEffect(() => {
-    AOS.init({ duration: 500 });
+    AOS.init({ duration: 300 });
   }, []);
 
   return (
@@ -17,7 +17,7 @@ export default function About({ aboutRef, skillsRef }) {
       // data-aos-duration="1000"
     >
       <h2
-        className="header_text flex justify-center"
+        className="header_text flex justify-center name_text"
         data-aos="zoom-in-up"
         style={{ letterSpacing: "2px" }}
       >
@@ -49,100 +49,100 @@ export default function About({ aboutRef, skillsRef }) {
           <div className="row">
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="html5" />
-              <div className="icon-name  header_text">HTML5</div>
+              <div className="icon-name  name_text">HTML5</div>
             </div>
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="css3" />
-              <div className="icon-name header_text">CSS3</div>
+              <div className="icon-name name_text">CSS3</div>
             </div>
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="js" />
-              <div className="icon-name header_text">JavaScript</div>
+              <div className="icon-name name_text">JavaScript</div>
             </div>
           </div>
           <div className="row">
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="python" />
-              <div className="icon-name header_text">Python</div>
+              <div className="icon-name name_text">Python</div>
             </div>
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="reactjs" />
-              <div className="icon-name header_text">React.js</div>
+              <div className="icon-name name_text">React.js</div>
             </div>
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="vuejs" />
-              <div className="icon-name header_text">Vue.js</div>
+              <div className="icon-name name_text">Vue.js</div>
             </div>
           </div>
           <div className="row">
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="bootstrap5" />
-              <div className="icon-name header_text">Bootstrap</div>
+              <div className="icon-name name_text">Bootstrap</div>
             </div>
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="materialui" />
-              <div className="icon-name header_text">MaterialUI</div>
+              <div className="icon-name name_text">MaterialUI</div>
             </div>
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="sass" />
-              <div className="icon-name header_text">SASS</div>
+              <div className="icon-name name_text">SASS</div>
             </div>
           </div>
           <div className="row">
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="tailwindcss" />
-              <div className="icon-name header_text">Tailwind</div>
+              <div className="icon-name name_text">Tailwind</div>
             </div>
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="nodejs" />
-              <div className="icon-name header_text">Node.js</div>
+              <div className="icon-name name_text">Node.js</div>
             </div>
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="mongodb" />
-              <div className="icon-name header_text">MongoDB</div>
+              <div className="icon-name name_text">MongoDB</div>
             </div>
           </div>
           <div className="row">
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="django" />
-              <div className="icon-name header_text">Django</div>
+              <div className="icon-name name_text">Django</div>
             </div>
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="postgresql" />
-              <div className="icon-name header_text">PostgreSQL</div>
+              <div className="icon-name name_text">PostgreSQL</div>
             </div>
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="postman" />
-              <div className="icon-name header_text">Postman</div>
+              <div className="icon-name name_text">Postman</div>
             </div>
           </div>
           <div className="row">
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="github" />
-              <div className="icon-name header_text">GitHub</div>
+              <div className="icon-name name_text">GitHub</div>
             </div>
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="railway" />
-              <div className="icon-name header_text">Railway</div>
+              <div className="icon-name name_text">Railway</div>
             </div>
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="aws" />
-              <div className="icon-name header_text">AWS</div>
+              <div className="icon-name name_text">AWS</div>
             </div>
           </div>
           <div className="row">
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="netlify2" />
-              <div className="icon-name header_text">Netlify</div>
+              <div className="icon-name name_text">Netlify</div>
             </div>
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="npm2" />
-              <div className="icon-name header_text">NPM</div>
+              <div className="icon-name name_text">NPM</div>
             </div>
             {/* <div data-aos="flip-right"> */}
               <div className={`icon-container  `} data-aos="flip-right">
                 <div className="draw">ex</div>
-                <div className="icon-name header_text express">Express</div>
+                <div className="icon-name name_text express">Express</div>
               </div>
               {/* <div
                 className={`icon-name header_text`}
