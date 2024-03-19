@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
     position: fixed;
     z-index: 999999999;
 }
@@ -89,4 +89,40 @@
        display: flex;
        justify-content: center;
     }
+} */
+
+.navbar {
+  position: fixed;
+  z-index: 999999999;
 }
+
+.navbar-toggler-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.container {
+  margin: 0;
+}
+
+.bg-none {
+  background-color: transparent !important; /* Important to override default styles */
+}
+
+.bg-white-expanded {
+    /* position: absolute; */
+    /* height: 108%; */
+  /* background-color: rgb(90, 88, 88) */
+  background-color: white;
+}
+
+.navbar-toggler {
+    border: none;
+    /* color: var(--blushPink); */
+    background-color: rgba(131, 120, 122, 0.317);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+/* bg-body-tertiary */

@@ -5,7 +5,7 @@ import "animate.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-export default function About({ aboutRef }) {
+export default function About({ aboutRef, skillsRef }) {
   useEffect(() => {
     AOS.init({ duration: 500 });
   }, []);
@@ -45,7 +45,7 @@ export default function About({ aboutRef }) {
             the value of continuous growth and am ready for the next chapter.
           </p>
         </div>
-        <div className="skills">
+        <div className="skills" ref={skillsRef}>
           <div className="row">
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="html5" />
@@ -139,17 +139,18 @@ export default function About({ aboutRef }) {
               <StackIcon name="npm2" />
               <div className="icon-name header_text">NPM</div>
             </div>
-            <div data-aos="flip-right">
-              <div className={`icon-container  express`}>
-                <div className="">ex</div>
+            {/* <div data-aos="flip-right"> */}
+              <div className={`icon-container  `} data-aos="flip-right">
+                <div className="draw">ex</div>
+                <div className="icon-name header_text express">Express</div>
               </div>
-              <div
+              {/* <div
                 className={`icon-name header_text`}
                 style={{ marginTop: "0" }}
               >
                 Express
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
           </div>
         </div>
       </div>

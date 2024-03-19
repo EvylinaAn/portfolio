@@ -1,7 +1,7 @@
 import { useRef } from "react";
 
 import "./App.css";
-import Nav from "./components/nav/Nav";
+import Navigation from "./components/nav/Navigation";
 import Footer from "./components/footer/Footer";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
@@ -14,18 +14,20 @@ function App() {
   const experienceRef = useRef();
   const homeRef = useRef();
   const footerRef = useRef()
+  const skillsRef = useRef()
   
   return (
     <div className="App">
-      <Nav
+      <Navigation
         aboutRef={aboutRef}
         projectsRef={projectsRef}
         experienceRef={experienceRef}
         homeRef={homeRef}
         footerRef={footerRef}
+        skillsRef={skillsRef}
       />
       <Home aboutRef={aboutRef} homeRef={homeRef}/>
-      <About aboutRef={aboutRef} />
+      <About aboutRef={aboutRef} skillsRef={skillsRef}q/>
       <Projects projectsRef={projectsRef}/>
       <Experience experienceRef={experienceRef}/>
       <Footer footerRef={footerRef} />

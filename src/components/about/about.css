@@ -103,10 +103,19 @@ p {
 }
 
 .express {
-  color: black;
+  /* color: black;
   display: flex;
-  justify-content: center;
-  margin-bottom: 5px;
+  justify-content: center; */
+  /* margin-top: 20px; */
+  /* width: 34px;
+  height: 34px; */
+}
+
+.draw {
+  border: 0.5px solid black;
+  padding: 0.03em 0.5em 0.3em;
+  border-radius: 5px;
+  display: flex;
 }
 
 .rotate-p {
