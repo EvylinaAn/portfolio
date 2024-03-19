@@ -92,7 +92,7 @@
 } */
 
 .navbar {
-    padding: 5px 0;
+    padding: 6px 0;
   position: fixed;
   z-index: 999999999;
   width: 100vw;
@@ -120,6 +120,8 @@
 }
 
 .bg-none {
+  transition: all 0.5s ease-in;
+
   background-color: transparent !important; /* Important to override default styles */
 }
 

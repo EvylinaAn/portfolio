@@ -54,7 +54,7 @@ export default function Navigation({
       collapseOnSelect
       expanded={expanded}
       expand="250px"
-      className={expanded ? "bg-white-expanded animate__animated animate__slideInDown" : "bg-none animate__animated animate__slideInUp"}
+      className={expanded ? "bg-white-expanded animate__animated animate__slideInDown" : "bg-none"}
     >
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -68,7 +68,7 @@ export default function Navigation({
             className=""
               onClick={() => {
                 homeRef.current?.scrollIntoView({
-                  behavior: "smooth",
+                  // behavior: "smooth",
                 });
                 handleLinkClick()
               }}
