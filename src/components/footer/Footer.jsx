@@ -57,7 +57,7 @@ export default function Footer({ footerRef }) {
               >
                 <div className="modal-box">
                   <div className="inbox_email">
-                    <a href="mailto:thatfashiontale@gmail.com" target="blank">
+                    <a href="mailto:evylina5@gmail.com" target="blank">
                       Go to email
                     </a>
                   </div>
