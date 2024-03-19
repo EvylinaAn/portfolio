@@ -14,7 +14,6 @@ export default function About({ aboutRef }) {
     <section
       ref={aboutRef}
       id="about"
-      data-aos="zoom-in-up"
       // data-aos-duration="1000"
     >
       <h2
@@ -24,7 +23,7 @@ export default function About({ aboutRef }) {
       >
         About Me
       </h2>
-      <div className="about_content">
+      <div className="about_content" data-aos="zoom-in-up">
         <div className={`brief`}>
           <div className="profile_pic"></div>
           <p>
