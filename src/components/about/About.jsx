@@ -5,6 +5,8 @@ import "animate.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Divider from "@mui/material/Divider";
+import { FaArrowTurnDown } from "react-icons/fa6";
+
 
 export default function About({ aboutRef, skillsRef }) {
   useEffect(() => {
@@ -47,7 +49,8 @@ export default function About({ aboutRef, skillsRef }) {
           </p>
         </div>
         <Divider orientation="vertical" flexItem className="name_text hr_text" id="verticalHr"> My Skills <br/> &#x2192;</Divider>
-        <Divider className="name_text hr_text" id="horizontalHr">My Skills&#x2935;</Divider>
+        <Divider className="name_text hr_text" id="horizontalHr">My Skills <FaArrowTurnDown style={{display: "inline"}}/>
+</Divider>
         <div className="skills" ref={skillsRef} >
           <div className="row">
             <div className={`icon-container `} data-aos="flip-right">
