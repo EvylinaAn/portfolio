@@ -13,9 +13,9 @@ function App() {
   const projectsRef = useRef();
   const experienceRef = useRef();
   const homeRef = useRef();
-  const footerRef = useRef()
-  const skillsRef = useRef()
-  
+  const footerRef = useRef();
+  const skillsRef = useRef();
+
   return (
     <div className="App">
       <Navigation
@@ -26,13 +26,15 @@ function App() {
         footerRef={footerRef}
         skillsRef={skillsRef}
       />
-      <Home aboutRef={aboutRef} homeRef={homeRef}/>
-      <About aboutRef={aboutRef} skillsRef={skillsRef}q/>
-      <Projects projectsRef={projectsRef}/>
-      <Experience experienceRef={experienceRef}/>
+      <Home aboutRef={aboutRef} homeRef={homeRef} />
+      <About aboutRef={aboutRef} skillsRef={skillsRef} q />
+      <Projects projectsRef={projectsRef} />
+      <Experience experienceRef={experienceRef} />
       <Footer footerRef={footerRef} />
     </div>
   );
 }
 
 export default App;
+
+
