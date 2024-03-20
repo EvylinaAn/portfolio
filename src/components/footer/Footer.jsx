@@ -142,8 +142,8 @@ export default function Footer({ footerRef }) {
             {/* <div className="footer_text"> */}
               <h3 id="footer_heading">Get In Touch&#xa0;<GrContact className="msgIcon"/></h3>
               <p>
-                Want to get to know me better ? Let's grab a coffee then(physically or
-                virtually). You can also find me on socail media or just drop a
+                Want to get to know me better ? Let's grab a coffee(in-person or
+                virtually)! You can also find me on socail media or just drop a
                 message below.
               </p>
               <ul className="footer_ul">
