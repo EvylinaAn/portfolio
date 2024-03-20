@@ -117,6 +117,10 @@ img {
     margin: 7em auto;
   } */
 
+  #projects {
+    margin: 6em auto 5em;
+  }
+
   .projectDiv {
     width: 100vw;
   }

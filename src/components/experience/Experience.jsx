@@ -1,10 +1,21 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./experience.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "animate.css";
 
+
 export default function Experience({ experienceRef }) {
+  const [showDescription, setShowDescription] = useState(false);
+
+  function toggleDescription() {
+    setShowDescription(!showDescription);
+  }
+
+  function closeDescription() {
+    setShowDescription(false);
+  }
+
   useEffect(() => {
     AOS.init({ duration: 500 });
   }, []);
@@ -38,37 +49,48 @@ export default function Experience({ experienceRef }) {
               fulowed by classes that included live and recorded lessons,
               exercise labs, teamwork, work based problems and 4 main projects
               with a timeframe of a week for each project.
-              {/* <ol className="experienceListOL">
-                <li>
-                  Retro Snake - I developed a classic Snake game using HTML,
-                  CSS, and JavaScript, demonstrating my proficiency in front-end
-                  development.
-                </li>
-                <li>
-                  Breezy Easy Escapade(BEE) - Next I built a travel application
-                  using the MEVN stack showcasing my ability to develop
-                  full-stack CRUDable applications independently using Vue.js.
-                </li>
-                <li>
-                  Journée - As a group of 3, we created a day planner using the
-                  MERN stack showcasing my ability to work as a team ready for
-                  an actual workspace environment by collaborating on GitHub,
-                  using React.js to develop a fully functional CRUDable
-                  application. I took on the task of implementing user
-                  authentication by utilizing Google oAuth with Passport. Our
-                  application had 3 main CRUDable items, namely To-Dos, Schedule
-                  and Daily Check where I looked after the implementation of the
-                  to-do’s and helped my teammate with the daily checker. We also
-                  each had a part to play with the styling of this application.
-                </li>
-                <li>
-                  That Fashion Tale - For my final project, I decided to develop
-                  a personal blog using React.js, Django REST framework, and
-                  PostgreSQL, showcasing my versatility in integrating different
-                  languages and technologies to build functional and
-                  user-friendly web applications.
-                </li>
-              </ol> */}
+              <br />
+              <button className="btn btn-xs btn-outline styledBtn" onClick={toggleDescription}>
+                {showDescription ? "See Less": "See More"}
+              </button>
+              {showDescription && (
+                <ol className="experienceListOL">
+                  <li>
+                    Retro Snake - I developed a classic Snake game using HTML,
+                    CSS, and JavaScript, demonstrating my proficiency in
+                    front-end development.
+                  </li>
+                  <li>
+                    Breezy Easy Escapade(BEE) - Next I built a travel
+                    application using the MEVN stack showcasing my ability to
+                    develop full-stack CRUDable applications independently using
+                    Vue.js.
+                  </li>
+                  <li>
+                    Journée - As a group of 3, we created a day planner using
+                    the MERN stack showcasing my ability to work as a team ready
+                    for an actual workspace environment by collaborating on
+                    GitHub, using React.js to develop a fully functional
+                    CRUDable application. I took on the task of implementing
+                    user authentication by utilizing Google oAuth with Passport.
+                    Our application had 3 main CRUDable items, namely To-Dos,
+                    Schedule and Daily Check where I looked after the
+                    implementation of the to-do’s and helped my teammate with
+                    the daily checker. We also each had a part to play with the
+                    styling of this application.
+                  </li>
+                  <li>
+                    That Fashion Tale - For my final project, I decided to
+                    develop a personal blog using React.js, Django REST
+                    framework, and PostgreSQL, showcasing my versatility in
+                    integrating different languages and technologies to build
+                    functional and user-friendly web applications.
+                  </li>
+                <button className="btn btn-xs btn-outline styledBtn" onClick={closeDescription}>
+                    Close
+                  </button>
+                </ol>
+              )}
             </li>
           </ul>
         </div>

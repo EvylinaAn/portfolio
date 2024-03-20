@@ -36,6 +36,10 @@
     padding: 0.1em 0.5em;
   }
 
+  .styledBtn {
+    border-color: pink !important;
+    color: pink !important;
+  }
   /* #position {
     background-color: pink;
   }
@@ -67,7 +71,9 @@
 
   @media (max-width: 620px) {
 
-    
+    #experience {
+      margin-top: 5em;
+    }
 
     .experienceDiv {
         width: 100%;
