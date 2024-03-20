@@ -83,18 +83,18 @@ export default function Navigation({
                 handleLinkClick()
               }}
             >
-              About
+              About/Skills
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               onClick={() => {
-                skillsRef.current?.scrollIntoView({
+                aboutRef.current?.scrollIntoView({
                   behavior: "smooth",
                 });
                 handleLinkClick()
               }}
             >
               Skills
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link
               onClick={() => {
                 projectsRef.current?.scrollIntoView({

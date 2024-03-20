@@ -126,12 +126,21 @@ p {
   letter-spacing: 2px;
 }
 
+#horizontalHr{
+  display: none;
+}
+
+.hr_text {
+  font-size: 1.5em;
+  color: var(--blushPink);
+}
+
 
 @media (max-width: 1250px) {
   #about {
     margin: 0 auto;
     flex-direction: column;
-    height: 100%;
+    /* height: 100%; */
   }
 
   .brief {
@@ -144,10 +153,26 @@ p {
     border-bottom: 0.5px solid rgba(255, 255, 255);
   }
 
+  /* .skills {
+    height: 100vh;
+  } */
+
   .about_content {
     flex-direction: column;
   }
+
+  #verticalHr {
+    display: none;
+  }
+
+  #horizontalHr{
+    display: flex;
+    margin-top: 1em;
+  }
+
+  
 }
+
 
 @media (max-width: 620px) {
   h2 {
