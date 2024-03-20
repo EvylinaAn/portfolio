@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import "animate.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Divider from "@mui/material/Divider";
 
 export default function About({ aboutRef, skillsRef }) {
   useEffect(() => {
@@ -38,14 +39,16 @@ export default function About({ aboutRef, skillsRef }) {
             grew, ultimately leading me to invest in General Assembly's Software
             Engineering course.
             <br />
-            <br />
+            <br  />
             Now, with the course completed, I reflect on the resilience of my
             journey and the way I embraced change, fueled by both my passion for
             blogging and coding. Eager to embark on a tech career, I understand
             the value of continuous growth and am ready for the next chapter.
           </p>
         </div>
-        <div className="skills" ref={skillsRef}>
+        <Divider orientation="vertical" flexItem className="name_text hr_text" id="verticalHr"> My Skills <br/> &#x2192;</Divider>
+        <Divider className="name_text hr_text" id="horizontalHr">My Skills&#x2935;</Divider>
+        <div className="skills" ref={skillsRef} >
           <div className="row">
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="html5" />
