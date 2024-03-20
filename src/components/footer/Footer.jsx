@@ -8,8 +8,6 @@ import { IoLogoInstagram } from "react-icons/io";
 import Divider from "@mui/material/Divider";
 import { BsFillSendFill } from "react-icons/bs";
 import { GrContact } from "react-icons/gr";
-import { FaHeart } from "react-icons/fa";
-
 
 export default function Footer({ footerRef }) {
   const form = useRef();
