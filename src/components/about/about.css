@@ -16,11 +16,7 @@
   /* height: 80vh; */
 }
 
-h2 {
-  font-size: 2em;
-  width: 70vw;
-  margin: auto;
-}
+
 
 .brief {
   border-right: 0.1px solid rgba(255, 255, 255, 0.753);
@@ -173,9 +169,9 @@ p {
 
 
 @media (max-width: 620px) {
-  h2 {
-    width: 100%;
-  }
+  /* h2 {
+    width: 80%;
+  } */
   #about {
     width: 100vw;
     background: none;

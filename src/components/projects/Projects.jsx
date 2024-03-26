@@ -40,7 +40,7 @@ export default function Projects({ projectsRef }) {
             </div>
           </div>
           <div className="aboutProject" data-aos="zoom-in">
-            <h3 className="projectName text-2xl madimi">Retro Snake</h3>
+            <h3 className="projectName text-2xl madimi mb-1">Retro Snake</h3>
             <h5 className="groutTime">Solo | 1 week</h5>
             <ul className="techStack my-2">
               <li>
@@ -84,7 +84,7 @@ export default function Projects({ projectsRef }) {
             </div>
           </div>
           <div className="aboutProject" data-aos="zoom-in">
-            <h3 className="projectName text-2xl madimi">BEE</h3>
+            <h3 className="projectName text-2xl madimi mb-1">BEE</h3>
             <h5 className="groutTime">Solo | 1 week</h5>
             <ul className="techStack my-2">
               <li>
@@ -132,7 +132,7 @@ export default function Projects({ projectsRef }) {
             </div>
           </div>
           <div className="aboutProject" data-aos="zoom-in">
-            <h3 className="projectName text-2xl madimi">Journée</h3>
+            <h3 className="projectName text-2xl madimi mb-1">Journée</h3>
             <h5 className="groutTime">Group | 1 week</h5>
             <ul className="techStack my-2">
               <li>
@@ -184,7 +184,7 @@ export default function Projects({ projectsRef }) {
             </div>
           </div>
           <div className="aboutProject" data-aos="zoom-in">
-            <h3 className="projectName text-2xl madimi">That Fashion tale</h3>
+            <h3 className="projectName text-2xl madimi mb-1">That Fashion Tale</h3>
             <h5 className="groutTime">Solo | 1 week</h5>
             <ul className="techStack my-2">
               <li>
