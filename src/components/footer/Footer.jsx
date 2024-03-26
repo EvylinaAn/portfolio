@@ -9,6 +9,8 @@ import Divider from "@mui/material/Divider";
 import { BsFillSendFill } from "react-icons/bs";
 import { GrContact } from "react-icons/gr";
 import toast, { Toaster } from "react-hot-toast";
+import { BsFillSuitHeartFill } from "react-icons/bs";
+import { HiHeart } from "react-icons/hi";
 
 export default function Footer({ footerRef }) {
   const form = useRef();
@@ -50,7 +52,7 @@ export default function Footer({ footerRef }) {
               Get In Touch&#xa0;
               <GrContact className="msgIcon" />
             </h3>
-            <p>
+            <p style={{color: 'rgba(107, 106, 106, 0.901)'}}>
               Want to get to know me better ? Let's grab a coffee (in-person or
               virtually)! You can also find me on social media or just drop a
               message below.
@@ -118,7 +120,7 @@ export default function Footer({ footerRef }) {
             </form>
           </div>
         </div>
-        <div className="footerRights">Coded with &#10084; by Evylina</div>
+        <div className="footerRights">Coded with&nbsp;<HiHeart style={{display:'inline'}} />&nbsp;by Evylina</div>
       </footer>
     </section>
   );

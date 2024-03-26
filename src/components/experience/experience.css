@@ -7,8 +7,8 @@
     justify-content: center;
     font-family: "EB Garamond", serif;
     font-size: 18px;
-    color: rgba(107, 106, 106, 0.801);
-
+    /* color: rgba(107, 106, 106, 0.801); */
+    color: black;
 }
   
   .experienceDiv {
@@ -40,7 +40,7 @@
 
   .styledBtn {
     border-color: pink !important;
-    color: pink !important;
+    color: rgb(237, 106, 128) !important;
   }
 
   .styledBtn:hover {

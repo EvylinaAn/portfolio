@@ -40,8 +40,8 @@ export default function Projects({ projectsRef }) {
             </div>
           </div>
           <div className="aboutProject" data-aos="zoom-in">
-            <h3 className="projectName text-2xl madimi mb-1">Retro Snake</h3>
-            <h5 className="groutTime">Solo | 1 week</h5>
+            <h3 className="projectName text-3xl mb-1">Retro Snake</h3>
+            <h5 className="groupTime">Solo | 1 week</h5>
             <ul className="techStack my-2">
               <li>
                 <RiHtml5Line />
@@ -59,7 +59,7 @@ export default function Projects({ projectsRef }) {
             </p>
             <div className="projectLinks mt-4">
               <Link to="https://evyssnakegame.netlify.app/" target="blank">
-                <button className="appLink btn btn-sm btn-outline btn-primary">
+                <button className="appLink styledBtn btn btn-sm btn-outline btn-primary">
                   Project
                 </button>
               </Link>
@@ -68,7 +68,7 @@ export default function Projects({ projectsRef }) {
                 target="blank"
                 className="ml-2"
               >
-                <button className="gitHubLink btn btn-outline btn-primary btn-sm">
+                <button className="gitHubLink styledBtn btn btn-outline btn-primary btn-sm">
                   GitHub
                 </button>
               </Link>
@@ -84,8 +84,8 @@ export default function Projects({ projectsRef }) {
             </div>
           </div>
           <div className="aboutProject" data-aos="zoom-in">
-            <h3 className="projectName text-2xl madimi mb-1">BEE</h3>
-            <h5 className="groutTime">Solo | 1 week</h5>
+            <h3 className="projectName text-3xl mb-1">BEE</h3>
+            <h5 className="groupTime">Solo | 1 week</h5>
             <ul className="techStack my-2">
               <li>
                 <TbBrandMongodb />
@@ -107,7 +107,7 @@ export default function Projects({ projectsRef }) {
             </p>
             <div className="projectLinks mt-4">
               <Link to="https://zingy-panda-b32083.netlify.app/" target="blank">
-                <button className="appLink btn btn-sm btn-outline btn-primary">
+                <button className="appLink styledBtn btn btn-sm btn-outline btn-primary">
                   Project
                 </button>
               </Link>
@@ -116,7 +116,7 @@ export default function Projects({ projectsRef }) {
                 target="blank"
                 className="ml-2"
               >
-                <button className="gitHubLink btn btn-outline btn-primary btn-sm">
+                <button className="gitHubLink styledBtn btn btn-outline btn-primary btn-sm">
                   GitHub
                 </button>
               </Link>
@@ -132,8 +132,8 @@ export default function Projects({ projectsRef }) {
             </div>
           </div>
           <div className="aboutProject" data-aos="zoom-in">
-            <h3 className="projectName text-2xl madimi mb-1">Journée</h3>
-            <h5 className="groutTime">Group | 1 week</h5>
+            <h3 className="projectName text-3xl  mb-1">Journée</h3>
+            <h5 className="groupTime">Group | 1 week</h5>
             <ul className="techStack my-2">
               <li>
                 <TbBrandMongodb />
@@ -156,7 +156,7 @@ export default function Projects({ projectsRef }) {
             </p>
             <div className="projectLinks mt-4">
               <Link to="https://journee.site/" target="blank">
-                <button className="appLink btn btn-sm btn-outline btn-primary">
+                <button className="appLink styledBtn btn btn-sm btn-outline btn-primary">
                   Project
                 </button>
               </Link>
@@ -165,7 +165,7 @@ export default function Projects({ projectsRef }) {
                 target="blank"
                 className="ml-2"
               >
-                <button className="gitHubLink btn btn-outline btn-primary btn-sm">
+                <button className="gitHubLink styledBtn btn btn-outline btn-primary btn-sm">
                   GitHub
                 </button>
               </Link>
@@ -184,8 +184,8 @@ export default function Projects({ projectsRef }) {
             </div>
           </div>
           <div className="aboutProject" data-aos="zoom-in">
-            <h3 className="projectName text-2xl madimi mb-1">That Fashion Tale</h3>
-            <h5 className="groutTime">Solo | 1 week</h5>
+            <h3 className="projectName text-3xl mb-1">That Fashion Tale</h3>
+            <h5 className="groupTime">Solo | 1 week</h5>
             <ul className="techStack my-2">
               <li>
                 <SiPostgresql />
@@ -208,7 +208,7 @@ export default function Projects({ projectsRef }) {
                 to="https://blogthatfashiontale.netlify.app/"
                 target="blank"
               >
-                <button className="appLink btn btn-sm btn-outline btn-primary">
+                <button className="appLink styledBtn btn btn-sm btn-outline btn-primary">
                   Project
                 </button>
               </Link>
@@ -217,7 +217,7 @@ export default function Projects({ projectsRef }) {
                 target="blank"
                 className="ml-2"
               >
-                <button className="gitHubLink btn btn-outline btn-primary btn-sm">
+                <button className="gitHubLink styledBtn btn btn-outline btn-primary btn-sm ">
                   GitHub
                 </button>
               </Link>

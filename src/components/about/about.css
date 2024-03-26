@@ -47,7 +47,8 @@ p {
   text-align: center;
   font-size: 18px;
   font-size: 18px;
-  color: rgba(107, 106, 106, 0.801)
+  /* color: rgba(107, 106, 106, 0.801) */
+  color: black;
 }
 
 .skills {
@@ -64,7 +65,8 @@ p {
 
 .row {
   display: flex;
-  /* padding: auto 10px; */
+
+  margin: 1px 0.5px;
 }
 
 .example-container div {
@@ -161,7 +163,7 @@ p {
   }
 
   .row {
-    margin: 5px 1px;
+    margin: 5px 0;
   }
 
   

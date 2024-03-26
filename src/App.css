@@ -21,7 +21,8 @@ body {
     font-family: "EB Garamond", serif;
     font-size: 18px;
     letter-spacing: 0.05em;
-    color: rgba(107, 106, 106, 0.801)
+    /* color: rgba(107, 106, 106, 0.901) */
+    color: black;
 }
 
 .header_text {
