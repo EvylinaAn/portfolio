@@ -48,9 +48,9 @@ export default function About({ aboutRef, skillsRef }) {
             <br />
             <br />
             <strong>Interests:</strong> Everyone's got a reason to travel. My
-            reason is FOOD! I absolutely love travelling and if that destination
-            is known for their cuisine, I am packed and ready a month before
-            departure.
+            reason is FOOD! I am very likely the world's biggest foodie that
+            absolutely loves travelling and if that destination is known for
+            their cuisine, I am packed and ready a month before departure.
           </p>
         </div>
         <Divider
