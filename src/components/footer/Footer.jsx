@@ -9,7 +9,6 @@ import Divider from "@mui/material/Divider";
 import { BsFillSendFill } from "react-icons/bs";
 import { GrContact } from "react-icons/gr";
 import toast, { Toaster } from "react-hot-toast";
-import { BsFillSuitHeartFill } from "react-icons/bs";
 import { HiHeart } from "react-icons/hi";
 
 export default function Footer({ footerRef }) {
