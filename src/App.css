@@ -56,14 +56,32 @@ body {
 h2 {
     background-color: rgba(255, 192, 203, 0.498);
     font-size: 2em;
-    width: 70vw;
+    width: 30%;
     margin: auto;
     border-radius: 10px;
   }
 
+  .section_header {
+    width: 30% !important;
+  }
+
+  @media (max-width : 1250px) {
+    h2 {
+        width: 48% !important;
+      }
+
+      .section_header {
+        width: 70% !important;
+      }
+  }
+
 @media (max-width : 620px) {
     h2 {
-        width: 70% !important;
+        width: 60% !important;
+      }
+
+      .section_header {
+        width: 60% !important;
       }
 
     .App {

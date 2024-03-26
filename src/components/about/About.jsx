@@ -19,7 +19,7 @@ export default function About({ aboutRef, skillsRef }) {
       // data-aos-duration="1000"
     >
       <h2
-        className="header_text flex justify-center name_text"
+        className="header_text flex justify-center name_text mb-2"
         data-aos="zoom-in-up"
         style={{ letterSpacing: "2px" }}
       >
