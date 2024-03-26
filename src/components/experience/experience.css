@@ -40,6 +40,17 @@
     border-color: pink !important;
     color: pink !important;
   }
+
+  .styledBtn:hover {
+    background: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  }
+
+  .experience_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   /* #position {
     background-color: pink;
   }
@@ -48,9 +59,14 @@
     background-color: purple;
   } */
 
+  .expDivider {
+    border-color: rgba(0, 0, 0, 0.358) ;
+    padding: 0.2em;
+  }
+
   #duration {
     /* background-color: aqua; */
-    border-bottom: 0.5px solid rgba(128, 128, 128, 0.213);
+    /* border-bottom: 0.5px solid rgba(128, 128, 128, 0.213); */
   }
 
   .experienceList {

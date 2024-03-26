@@ -7,7 +7,6 @@ import "aos/dist/aos.css";
 import Divider from "@mui/material/Divider";
 import { FaArrowTurnDown } from "react-icons/fa6";
 
-
 export default function About({ aboutRef, skillsRef }) {
   useEffect(() => {
     AOS.init({ duration: 300 });
@@ -41,17 +40,32 @@ export default function About({ aboutRef, skillsRef }) {
             grew, ultimately leading me to invest in General Assembly's Software
             Engineering course.
             <br />
-            <br  />
+            <br />
             Now, with the course completed, I reflect on the resilience of my
             journey and the way I embraced change, fueled by both my passion for
             blogging and coding. Eager to embark on a tech career, I understand
             the value of continuous growth and am ready for the next chapter.
+            <br />
+            <br />
+            <strong>Interests:</strong> Everyone's got a reason to travel. My
+            reason is FOOD! I absolutely love travelling and if that destination
+            is known for their cuisine, I am packed and ready a month before
+            departure.
           </p>
         </div>
-        <Divider orientation="vertical" flexItem className="name_text hr_text" id="verticalHr"> My Skills <br/> &#x2192;</Divider>
-        <Divider className="name_text hr_text" id="horizontalHr">My Skills <FaArrowTurnDown style={{display: "inline"}}/>
-</Divider>
-        <div className="skills" ref={skillsRef} >
+        <Divider
+          orientation="vertical"
+          flexItem
+          className="name_text hr_text"
+          id="verticalHr"
+        >
+          {" "}
+          My Skills <br /> &#x2192;
+        </Divider>
+        <Divider className="name_text hr_text" id="horizontalHr">
+          My Skills <FaArrowTurnDown style={{ display: "inline" }} />
+        </Divider>
+        <div className="skills" ref={skillsRef}>
           <div className="row">
             <div className={`icon-container `} data-aos="flip-right">
               <StackIcon name="html5" />
@@ -146,11 +160,11 @@ export default function About({ aboutRef, skillsRef }) {
               <div className="icon-name name_text">NPM</div>
             </div>
             {/* <div data-aos="flip-right"> */}
-              <div className={`icon-container  `} data-aos="flip-right">
-                <div className="draw">ex</div>
-                <div className="icon-name name_text express">Express</div>
-              </div>
-              {/* <div
+            <div className={`icon-container  `} data-aos="flip-right">
+              <div className="draw">ex</div>
+              <div className="icon-name name_text express">Express</div>
+            </div>
+            {/* <div
                 className={`icon-name header_text`}
                 style={{ marginTop: "0" }}
               >

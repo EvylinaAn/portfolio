@@ -3,7 +3,7 @@ import "./experience.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "animate.css";
-
+import Divider from "@mui/material/Divider";
 
 export default function Experience({ experienceRef }) {
   const [showDescription, setShowDescription] = useState(false);
@@ -32,7 +32,7 @@ export default function Experience({ experienceRef }) {
         </h2>
         <div className="singleExperience" data-aos="fade-right">
           <h4 className="expDetails text-xl" id="position">
-            Student || Software Engineering Immersive,
+            Software Engineering Immersive Student,
           </h4>
           <h4 className="expDetails text-xl" id="company">
             General Assembly
@@ -40,6 +40,8 @@ export default function Experience({ experienceRef }) {
           <h4 className="expDetails text-xl" id="duration">
             November 2023 - March 2024
           </h4>
+          <Divider flexItem className="expDivider" />
+         
           <ul className="experienceList">
             <li>
               During my intensive 4-month software engineering course at General
@@ -104,6 +106,7 @@ export default function Experience({ experienceRef }) {
           <h4 className="expDetails text-xl" id="duration">
             July 2023 - October 2023
           </h4>
+          <Divider flexItem className="expDivider" />
           <ul className="experienceList">
             <li>
               Liaised with clients to boost sales, maintained detailed
@@ -125,6 +128,7 @@ export default function Experience({ experienceRef }) {
           <h4 className="expDetails text-xl" id="duration">
             August 2021 - June 2023
           </h4>
+          <Divider flexItem className="expDivider" />
           <ul className="experienceList">
             <li>
               Exceeded sales targets by always looking for ways to make our
@@ -132,7 +136,7 @@ export default function Experience({ experienceRef }) {
               up-selling and expanding their investment portfolio.
             </li>
             <li>
-              Network with a team to achieve sales targets and incentives
+              Network and help lead a team to achieve sales targets and incentives
               utilising Noetica, Excel and Flame.
             </li>
           </ul>
@@ -147,14 +151,18 @@ export default function Experience({ experienceRef }) {
           <h4 className="expDetails text-xl" id="duration">
             August 2019 - April 2021
           </h4>
+          <Divider flexItem className="expDivider" />
           <ul className="experienceList">
+            <li>
+              Worked in teams and individually to exceed expected targets.
+            </li>
             <li>
               Achieved outstanding performance, trained newcomers and maintained
               exceptional call standards utilising Avaya and Noetica.
             </li>
           </ul>
         </div>
-        <div className="singleExperience" data-aos="fade-right">
+        {/* <div className="singleExperience" data-aos="fade-right">
           <h4 className="expDetails text-xl" id="position">
             Sales Representative,
           </h4>
@@ -164,14 +172,15 @@ export default function Experience({ experienceRef }) {
           <h4 className="expDetails text-xl" id="duration">
             March 2019 - August 2021
           </h4>
+          <Divider flexItem className="expDivider" />
           <ul className="experienceList">
             <li>
               Exceeded team targets, maintained merchandise displays and
               implemented sales strategies utilising Critix.
             </li>
           </ul>
-        </div>
-        <div className="singleExperience" data-aos="fade-right">
+        </div> */}
+        {/* <div className="singleExperience" data-aos="fade-right">
           <h4 className="expDetails text-xl" id="position">
             Assistant Manager Marketing,
           </h4>
@@ -181,6 +190,7 @@ export default function Experience({ experienceRef }) {
           <h4 className="expDetails text-xl" id="duration">
             June 2018 - February 2019
           </h4>
+          <Divider flexItem className="expDivider" />
           <ul className="experienceList">
             <li>
               Implemented marketing strategies by organising events such as
@@ -193,7 +203,7 @@ export default function Experience({ experienceRef }) {
             </li>
             <li>Software used: Shopper, Instagram, Facebook & Twitter.</li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </section>
   );

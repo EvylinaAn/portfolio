@@ -51,8 +51,8 @@ export default function Footer({ footerRef }) {
               <GrContact className="msgIcon" />
             </h3>
             <p>
-              Want to get to know me better ? Let's grab a coffee(in-person or
-              virtually)! You can also find me on socail media or just drop a
+              Want to get to know me better ? Let's grab a coffee (in-person or
+              virtually)! You can also find me on social media or just drop a
               message below.
             </p>
             <ul className="footer_ul">
