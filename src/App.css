@@ -62,7 +62,7 @@ h2 {
   }
 
   .section_header {
-    width: 30% !important;
+    width: 43% !important;
   }
 
   @media (max-width : 1250px) {
@@ -71,17 +71,17 @@ h2 {
       }
 
       .section_header {
-        width: 70% !important;
+        width: 69% !important;
       }
   }
 
 @media (max-width : 620px) {
     h2 {
-        width: 60% !important;
+        width: 70% !important;
       }
 
       .section_header {
-        width: 60% !important;
+        width: 70% !important;
       }
 
     .App {
