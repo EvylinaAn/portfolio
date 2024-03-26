@@ -136,7 +136,7 @@ export default function Experience({ experienceRef }) {
               up-selling and expanding their investment portfolio.
             </li>
             <li>
-              Network and help lead a team to achieve sales targets and incentives
+              Networked and helped lead a team to achieve sales targets and incentives
               utilising Noetica, Excel and Flame.
             </li>
           </ul>
